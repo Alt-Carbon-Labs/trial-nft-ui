@@ -1,0 +1,100 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+        Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    height: 100vh;
+    display: grid;
+    font-size: 18px;
+}
+
+#app {
+    align-self: center;
+    justify-self: center;
+}
+
+.container {
+    width: 300px;
+    background-color: #eee;
+    text-align: center;
+    padding: 27px 18px;
+    margin-bottom: 27px;
+}
+
+h1 {
+    margin: 0;
+    padding-bottom: 18px;
+    font-size: 18px;
+}
+
+input,
+button {
+    padding: 9px;
+    font-size: 18px;
+    margin-bottom: 9px;
+}
+
+input.full-width {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 9px;
+    text-align: center;
+}
+
+.info {
+    max-width: 21ch;
+    margin: 0 auto;
+    margin-bottom: 18px;
+    background-color: #ddd;
+    padding: 12px 24px;
+    word-wrap: break-word;
+    font-family: 'Lucida Console', Monaco, monospace;
+    font-size: 15px;
+}
+
+.info a {
+    color: black;
+}
+
+#apple-count {
+    margin-bottom: 18px;
+    background-color: #ddd;
+    padding: 9px 0;
+}
+
+form {
+    margin: 0;
+}
+
+.bigButton button {
+    display: inline-block;
+    font-family: 'Helvetica Neue';
+    font-size: 18px;
+    background-color: #60a74a;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    height: auto;
+    width: auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#alice.bigButton button {
+    background-color: #a74a97;
+}
+
+#bob.bigButton button {
+    background-color: #4a59a7;
+}
+
+#headshot.bigButton button {
+    background-color: #ed0909;
+}
+
+.bigButton button:hover {
+    background-color: #cccccc;
+}
